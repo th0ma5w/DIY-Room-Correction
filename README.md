@@ -12,7 +12,7 @@ The XBMC (now Kodi) played DVDs, rips of DVDs, YouTube, etc, and ran on top of L
 
 ## The Idea
 
-So I had a work aquaintance who had perhaps the opposite system in many ways... installed by professionals with theater seating, server rack, a touch screen table remote, and a projector. He mentioned in passing that the system had also done room correction which I had heard of, so I read a bunch about it.
+So I had a work aquaintance who had perhaps the opposite system in many ways... installed by professionals with theater seating, server rack, a touch screen tablet as a remote, and a very bright projector. He mentioned in passing that the system had room correction which I had heard of, so I read a bunch about it.
 
 It seemed simple enough:
 
