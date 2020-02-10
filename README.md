@@ -22,11 +22,11 @@ It seemed simple enough:
 
 ## The Test
 
-I spent a lot of time reading about digital signal processing and room correction and I kept thinking there had to be a way to do this stuff on a personal computer, and I eventually found a really great piece of software called the Room EQ Wizard at  [http://roomeqwizard.com](http://roomeqwizard.com)
+I spent a lot of time reading about digital signal processing and room correction. I kept thinking there had to be a way to do this stuff on a personal computer, and lo and behold, I eventually found a really great piece of software called the Room EQ Wizard available at [http://roomeqwizard.com](http://roomeqwizard.com) and it even worked on Linux. It isn't open source it seems, but it is free for personal use. 
 
 ![Room EQ Wizard Main Screen](/images/rew_mainscreen500h.png)
 
-This software seemd to handle most everything I needed, although, honestly, I didn't understand it all. But it certainly would perform a bunch of tone sweeps and record the output. For a microphone I think I had something sort of professional like... the Marshall MXL 990 and a preamp to go with it. This may be the reason why any of this was even remotely successful.
+This software seemed to handle most everything I needed, although, honestly, I didn't understand it all. But it certainly would perform a bunch of tone sweeps and record the output. For a microphone I think I had something sort of professional like... the Marshall MXL 990 and a preamp to go with it. This may be the reason why any of this was even remotely successful.
 
 ## The Test Results
 
@@ -71,6 +71,7 @@ What do you think? Am I missing something very important that a beginner should 
 ## Resources
 
 * Room EQ Wizard [https://www.roomeqwizard.com/](https://www.roomeqwizard.com/)
+* Python Open Room Correction [https://www.minidsp.com/applications/advanced-tools/python-open-room-correction](https://www.minidsp.com/applications/advanced-tools/python-open-room-correction)
 * ALSA and LADSPA Plugins [https://alsa.opensrc.org/Ladspa_(plugin)](https://alsa.opensrc.org/Ladspa_(plugin))
 * More advanced ALSA and LADSPA example [https://alsa.opensrc.org/Low-pass_filter_for_subwoofer_channel_(HOWTO)](https://alsa.opensrc.org/Low-pass_filter_for_subwoofer_channel_(HOWTO))
 * Digital Room Correction [https://en.wikipedia.org/wiki/Digital_room_correction](https://en.wikipedia.org/wiki/Digital_room_correction)
