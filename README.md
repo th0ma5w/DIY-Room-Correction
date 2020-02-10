@@ -1,4 +1,6 @@
-# A Very Simplistic Guide to Room Correction I Once Did
+# DIY Room Correction Linux
+
+## A Very Simplistic Guide to a Room Correction Setup I Once Had
 
 This document outlines a very naïve, minimalist approach to ideas around digital signal processing and room correction, a little about what is wrong with such a simplistic conception, and some various language that could help you start a journey into digital signal processing.
 
