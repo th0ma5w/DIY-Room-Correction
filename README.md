@@ -52,6 +52,7 @@ There are actually, as I've since come to find out, and also sort of knew at the
 * The profile of the microphone, while a nice microphone, is not entirely known, at least in a controlled fashion, and added a curve of its own to the recorded audio, which made the overall effort inaccurate. Using any microphone that isn't some kind of callibrated microphone with a known profile will introduce its own errors into the analysis. That being said I'd be curious about random small condensor mic performance.
 * There is probably a lot of noise overall that may have complicated the effort. Noise in the RCA receiver, noise in the sound card, noise in the mic preamp, and probably other errors like I imagine the frequency response of the digital to analog output or the analog to digital input of the sound card may not be flat either.
 * This was recorded from one position in the center of the room. A recent room correcting receiver I purchased had me set the callibrated microphone in several places in the room. I'm sure this involves a bunch of math I know nothing about, and the Room EQ Wizard software seems aware of multiple microphones and multiple testing locations.
+* After reading the Wikipedia page below on the topic, I completely ignored also the idea of different responses at different volumes... and the responses of each channel as well. This is something a basic system with room correction will do.
 * I suspect there is some non linear aspects of the crossovers in the speakers, as well as the transition between the subwoofer and the regular speakers which the receiver did, and to think of things like 7.2 audio and what happens to what audio frequencies when and on which wires seems to become also more complicated to think about.
 * I believe I had the same length of audio cable to each speaker which may have helped some as well. That seems like a reasonable thing to do, but there is a lot of voodoo and old wives' tales in the audio world that will get you to buy platinum tipped styluses for depressing buttons on your remote.
 * In general, I don't know enough even about what I don't know in order to say if any of the above is worth worrying about, or if there are even whole swaths of other issues I'm not thinking about.
@@ -68,4 +69,3 @@ You get what you pay for. I paid quite a bit in time, and I learned a lot, and I
 * Digital Room Correction https://en.wikipedia.org/wiki/Digital_room_correction
 * TAP-Plugins Equalizer http://tap-plugins.sourceforge.net/ladspa/eq.html
 * Kodi https://kodi.tv/
-* 
