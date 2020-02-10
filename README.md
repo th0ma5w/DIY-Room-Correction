@@ -22,7 +22,7 @@ It seemed simple enough:
 
 ## The Test
 
-I spent a lot of time reading about digital signal processing and room correction and I kept thinking there had to be a way to do this stuff on a personal computer, and I eventually found a really great piece of software called the Room EQ Wizard at  http://roomeqwizard.com
+I spent a lot of time reading about digital signal processing and room correction and I kept thinking there had to be a way to do this stuff on a personal computer, and I eventually found a really great piece of software called the Room EQ Wizard at  [http://roomeqwizard.com](http://roomeqwizard.com)
 
 This software seemd to handle most everything I needed, although, honestly, I didn't understand it all. But it certainly would perform a bunch of tone sweeps and record the output. For a microphone I think I had something sort of professional like... the Marshall MXL 990 and a preamp to go with it. This may be the reason why any of this was even remotely successful.
 
@@ -36,7 +36,7 @@ The software seemed to have a lot of features as I mentioned before that I didn'
 
 So as it turns out, while a lot of criticisms get lobbed at Linux and the myriad audio subsytems, it turns out it can be quite powerful once you dig into it. I had previously done some audio recording (hence the nice mic) and messed around with the real time Linux kernels and such to provide low latency, so I was a little familiar with several components. I was not using this system for audio recording, however. 
 
-Put simply, the Advanced Linux Sound Architecture (ALSA) supports the Linux Audio Developers Simple Plugin Application Programming Interface (LADSPA). This is the same software used by a lot of music recording software, and several hundred developers have created a rich landscape of audio software and plugins. But it was rather surprising to see that the sound card system itself supported these plugins. You can create a virtual sound card which has whatever plugins you want attached to it, and any audio sent to that virtual sound card will have the plugin's digital signal processing applied first before being sent to the hardware. There may be a miniscule delay, but I managed to get a parametric equalizer plugin with the above found frequencies following a guide similar to the one at https://alsa.opensrc.org/Ladspa_(plugin) ... Using an .asoundrc configuration file, and then making that the default audio output for XBMC, it all just worked. The .asoundrc file contained a list of the frequencies and the level adjustments in plain text as configuration parameters to the plugin.
+Put simply, the Advanced Linux Sound Architecture (ALSA) supports the Linux Audio Developers Simple Plugin Application Programming Interface (LADSPA). This is the same software used by a lot of music recording software, and several hundred developers have created a rich landscape of audio software and plugins. But it was rather surprising to see that the sound card system itself supported these plugins. You can create a virtual sound card which has whatever plugins you want attached to it, and any audio sent to that virtual sound card will have the plugin's digital signal processing applied first before being sent to the hardware. There may be a miniscule delay, but I managed to get a parametric equalizer plugin with the above found frequencies following a guide similar to the one at [https://alsa.opensrc.org/Ladspa_(plugin)](https://alsa.opensrc.org/Ladspa_(plugin)) ... Using an .asoundrc configuration file, and then making that the default audio output for XBMC, it all just worked. The .asoundrc file contained a list of the frequencies and the level adjustments in plain text as configuration parameters to the plugin.
 
 ## The Effect
 
@@ -63,9 +63,9 @@ You get what you pay for. I paid quite a bit in time, and I learned a lot, and I
 
 ## Resources
 
-* Room EQ Wizard https://www.roomeqwizard.com/
-* ALSA and LADSPA Plugins https://alsa.opensrc.org/Ladspa_(plugin)
-* More advanced ALSA and LADSPA example https://alsa.opensrc.org/Low-pass_filter_for_subwoofer_channel_(HOWTO)
-* Digital Room Correction https://en.wikipedia.org/wiki/Digital_room_correction
-* TAP-Plugins Equalizer http://tap-plugins.sourceforge.net/ladspa/eq.html
-* Kodi https://kodi.tv/
+* Room EQ Wizard [https://www.roomeqwizard.com/](https://www.roomeqwizard.com/)
+* ALSA and LADSPA Plugins [https://alsa.opensrc.org/Ladspa_(plugin)](https://alsa.opensrc.org/Ladspa_(plugin))
+* More advanced ALSA and LADSPA example [https://alsa.opensrc.org/Low-pass_filter_for_subwoofer_channel_(HOWTO)](https://alsa.opensrc.org/Low-pass_filter_for_subwoofer_channel_(HOWTO))
+* Digital Room Correction [https://en.wikipedia.org/wiki/Digital_room_correction](https://en.wikipedia.org/wiki/Digital_room_correction)
+* TAP-Plugins Equalizer [http://tap-plugins.sourceforge.net/ladspa/eq.html](http://tap-plugins.sourceforge.net/ladspa/eq.html)
+* Kodi [https://kodi.tv/](https://kodi.tv/)
