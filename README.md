@@ -1,4 +1,4 @@
-# DIY Room Correction with Linux
+# DIY Digital Room Correction with Linux
 
 #### _A Very Simplistic Guide to a Room Correction Setup I Once Had_
 
@@ -48,6 +48,7 @@ The plugin did seemingly tax the CPU a little bit. I would often recompile softw
 
 There are actually, as I've since come to find out, and also sort of knew at the time, quite a few problems with this setup:
 
+* Room correction is one aspect of what all is going on, but we're also trying to sort of correct for the sub-par equipment.
 * The profile of the microphone, while a nice microphone, is not entirely known, at least in a controlled fashion, and added a curve of its own to the recorded audio, which made the overall effort inaccurate. Using any microphone that isn't some kind of callibrated microphone with a known profile will introduce its own errors into the analysis. That being said I'd be curious about random small condensor mic performance.
 * There is probably a lot of noise overall that may have complicated the effort. Noise in the RCA receiver, noise in the sound card, noise in the mic preamp, and probably other errors like I imagine the frequency response of the digital to analog output or the analog to digital input of the sound card may not be flat either.
 * This was recorded from one position in the center of the room. A recent room correcting receiver I purchased had me set the callibrated microphone in several places in the room. I'm sure this involves a bunch of math I know nothing about, and the Room EQ Wizard software seems aware of multiple microphones and multiple testing locations.
@@ -58,3 +59,13 @@ There are actually, as I've since come to find out, and also sort of knew at the
 ## Finally
 
 You get what you pay for. I paid quite a bit in time, and I learned a lot, and I didn't get an expert's implementation, but with some amazing software written by others I managed to get a 80% solution that served me quite well. I'm not sure I'd recommend going this route however these days unless you just want to mess around. My current room correcting receiver produces superior results and while it is a refurbished unit didn't cost much more than the system mentioned here... we are living the future and digital signal processing with dedicated chips is very inexpensive. If this sort of thing is interesting to you, I'd encourage you to keep googling, send me a pull request of additional ideas and resources, or get some books or take classes in signal processing. Get your amateur radio license too while you're at it, there's a whole world to digital signal processing for the amateur radio enthusiast these days with software defined radio and digital mode transmissions.
+
+## Resources
+
+* Room EQ Wizard https://www.roomeqwizard.com/
+* ALSA and LADSPA Plugins https://alsa.opensrc.org/Ladspa_(plugin)
+* More advanced ALSA and LADSPA example https://alsa.opensrc.org/Low-pass_filter_for_subwoofer_channel_(HOWTO)
+* Digital Room Correction https://en.wikipedia.org/wiki/Digital_room_correction
+* TAP-Plugins Equalizer http://tap-plugins.sourceforge.net/ladspa/eq.html
+* Kodi https://kodi.tv/
+* 
