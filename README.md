@@ -1,4 +1,4 @@
-# DIY Room Correction Linux
+# DIY Room Correction with Linux
 
 ## A Very Simplistic Guide to a Room Correction Setup I Once Had
 
